@@ -1,0 +1,64 @@
+Xsession: X session started for vnc at Tue Oct  7 06:20:05 BST 2014
+X Error of failed request:  BadValue (integer parameter out of range for operation)
+  Major opcode of failed request:  109 (X_ChangeHosts)
+  Value in failed request:  0x5
+  Serial number of failed request:  6
+  Current serial number in output stream:  8
+localuser:vnc being added to access control list
+X Error of failed request:  BadValue (integer parameter out of range for operation)
+  Major opcode of failed request:  109 (X_ChangeHosts)
+  Value in failed request:  0x5
+  Serial number of failed request:  6
+  Current serial number in output stream:  8
+Script for ibus started at run_im.
+Script for auto started at run_im.
+Script for default started at run_im.
+Script for ibus started at run_im.
+Script for auto started at run_im.
+Script for default started at run_im.
+gnome-session-is-accelerated: No composite extension.
+gnome-session-check-accelerated: Helper exited with code 256
+gnome-session-is-accelerated: No composite extension.
+gnome-session-check-accelerated: Helper exited with code 256
+
+** (process:9912): WARNING **: software acceleration check failed: Child process exited with code 1
+
+** (x-session-manager:9912): CRITICAL **: We failed, but the fail whale is dead. Sorry....
+Xsession: X session started for vnc at Tue Oct  7 06:22:59 BST 2014
+No protocol specified
+xrdb: Resource temporarily unavailable
+xrdb: Can't open display ':0'
+No protocol specified
+xhost:  unable to open display ":0"
+No protocol specified
+xhost:  unable to open display ":0"
+Script for ibus started at run_im.
+Script for auto started at run_im.
+Script for default started at run_im.
+No protocol specified
+Script for ibus started at run_im.
+Script for auto started at run_im.
+Script for default started at run_im.
+No protocol specified
+
+** (gnome-session-check-accelerated:10131): WARNING **: Could not open X display
+No protocol specified
+error: XDG_RUNTIME_DIR not set in the environment.
+
+(gnome-session-check-accelerated:10131): Gtk-WARNING **: cannot open display: :0
+No protocol specified
+
+** (gnome-session-check-accelerated:10157): WARNING **: Could not open X display
+No protocol specified
+error: XDG_RUNTIME_DIR not set in the environment.
+
+(gnome-session-check-accelerated:10157): Gtk-WARNING **: cannot open display: :0
+
+** (process:10059): WARNING **: software acceleration check failed: Child process exited with code 1
+No protocol specified
+
+** (x-session-manager:10059): WARNING **: Could not open X display
+No protocol specified
+error: XDG_RUNTIME_DIR not set in the environment.
+
+** (x-session-manager:10059): WARNING **: Cannot open display: 

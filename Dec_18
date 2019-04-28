@@ -1,0 +1,19 @@
+   * Implemented version management tool - gitlab 
+   * Automated the release process for the projects(VBS,RiskMapping,Injury-Analysis,NYK,EDGE,Cargo) which i have worked, by using Jenkins Automation tool. 
+   * Configured docker-compose for all the projects which i was managed.
+   * Implemented Graphana monitoring tool - to monitor all the docker container. 
+   * i wrote the shell-scripts for backup. Automatically taking the backup of gitlab(repos and config),jenkins. database and all the projects Docker-image.
+
+
+
+
+
+ansible
+puppet
+
+
+* Plan to learn Kubernetes
+
+
+* Plan to implement ansible or puppet in our environment, (I learned puppet and ansible)
+

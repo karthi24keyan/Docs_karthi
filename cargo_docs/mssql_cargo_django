@@ -1,0 +1,31 @@
+RUN pip3 install pandas RUN pip3 install numpy
+RUN pip3 install django==1.11.8 RUN pip3 install djangorestframework RUN pip3 install django_pandas
+RUN pip3 install django-cors-headers
+RUN pip3 install django-rest-auth RUN pip3 install djangorestframework-expiring-authtoken RUN pip3 install django-extensions RUN pip3 install django-role-permissions RUN pip3 install djangorestframework-jwt
+
+//microsoftsql
+sudo apt-get install build-essential libssl-dev libffi-dev python3-dev
+sudo apt-get install build-essential autoconf libtool pkg-config python-opengl python-imaging python-pyrex python-pyside.qtopengl idle-python2.7 qt4-dev-tools qt4-designer libqtgui4 libqtcore4 libqt4-xml libqt4-test libqt4-script libqt4-network libqt4-dbus python-qt4 python-qt4-gl libgle3 python3-dev libssl-dev
+
+sudo apt-get install unixodbc-dev
+
+sudo apt-get install unixodbc-bin
+sudo pip3 install pyodbc
+pip install django-pyodbc-azure
+sudo apt-get install linuxbrew-wrapper
+
+
+sudo su 
+curl https://packages.microsoft.com/keys/microsoft.asc | apt-key add -
+curl https://packages.microsoft.com/config/ubuntu/16.04/prod.list > /etc/apt/sources.list.d/mssql-release.list
+exit
+sudo apt-get update
+sudo ACCEPT_EULA=Y apt-get install msodbcsql
+# optional: for bcp and sqlcmd
+sudo ACCEPT_EULA=Y apt-get install mssql-tools
+echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bash_profile
+echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bashrc
+source ~/.bashrc
+# optional: for unixODBC development headers
+sudo apt-get install unixodbc-dev
+
